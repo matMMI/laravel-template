@@ -88,7 +88,6 @@
                 <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
                     {{ __('Accueil') }}
                 </x-nav-link>
-
                 @auth
                 <div class="font-medium text-sm text-gray-500">{{ Auth::user() ? Auth::user()->email : 'Guest Email' }}
                 </div>
