@@ -1,6 +1,7 @@
 @auth
 <form action="{{ $route }}" method="POST"
-    onsubmit="return confirm('Êtes-vous sûr de vouloir supprimer ce flexible ?');">
+    {{-- onsubmit="return confirm('Êtes-vous sûr de vouloir supprimer ce flexible ?');" --}}
+    >
     @csrf
     @method('DELETE')
     <button type="submit"

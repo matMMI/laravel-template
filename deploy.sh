@@ -1,5 +1,5 @@
 set -e 
 git add . 
 git commit -m "maj" 
-git push --force
+git push
 echo "Déploiement effectué avec succès !"
